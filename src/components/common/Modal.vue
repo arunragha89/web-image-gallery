@@ -42,7 +42,6 @@
 .modal-body {
   text-align: center;
   position: relative;
-  padding: 2rem 1rem;
   margin-top: 3rem;
   background: $color-grey-light-1;
 }
