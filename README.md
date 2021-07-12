@@ -18,7 +18,7 @@
 - Spinner to notify users for page loading
 - Error handling of apis
 - Lazy loader to load images when user scrolls (10 images are loaded on page load)
-- Tested on all slower bandwidths
+- Tested on all bandwidths
 
 ### Run Project
 
