@@ -1,6 +1,5 @@
 export default {
   unsplashUrl: "https://api.unsplash.com",
-  imageCount: 50,
   authorizationToken: "Client-ID KO9-cMkPsUsCSZE3ZKSqUA-bwHvaJa73yxiwFkN8C6U",
   GET_PHOTOS_LIST_URL: "",
 };
