@@ -1,4 +1,4 @@
-import appConfig from "./constants";
+import appConfig from "../constants/constants";
 
 export default function client(endpoint) {
   const headers = { "content-type": "application/json" };

@@ -6,8 +6,9 @@ import {
   waitForElementToBeRemoved,
 } from "@testing-library/vue";
 import ImageList from "@/components/ImageList.vue";
-import { imagesMock } from "../../mocks/imageResultMock";
+import { imagesMock, imagesMockpage2 } from "../../mocks/imageResultMock";
 import "@testing-library/jest-dom";
+import infiniteScroll from "vue-infinite-scroll";
 
 beforeAll(() => jest.spyOn(window, "fetch"));
 
@@ -16,7 +17,9 @@ afterEach(() => {
 });
 
 function setUp() {
-  const utils = render(ImageList);
+  const utils = render(ImageList, {}, (vue) =>
+    vue.directive("infiniteScroll", infiniteScroll)
+  );
   return utils;
 }
 

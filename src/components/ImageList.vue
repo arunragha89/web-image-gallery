@@ -31,9 +31,9 @@
 </template>
 
 <script>
-import apiClient from "../apiClient";
+import apiClient from "../api/apiClient";
 import ImageDialog from "./ImageDialog.vue";
-import { GET_PHOTOS_API } from "../constants";
+import { GET_PHOTOS_API } from "../constants/constants";
 
 export default {
   components: { ImageDialog },
